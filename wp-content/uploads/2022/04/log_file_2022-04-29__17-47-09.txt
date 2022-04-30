@@ -1,0 +1,89 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wp
+Data file = C:\xampp\htdocs\wp/wp-content/uploads/2022/04/demo-content-1-1.xml
+Widget file = not defined!
+Customizer file = C:\xampp\htdocs\wp/wp-content/uploads/2022/04/customizer-1-1.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+[ERROR] Failed to import "client-1" (Media)
+[ERROR] Failed to import "client-2-light" (Media)
+[ERROR] Failed to import "client-2" (Media)
+[ERROR] Failed to import "client-3-light" (Media)
+[ERROR] Failed to import "client-3" (Media)
+[ERROR] Failed to import "client-4-light" (Media)
+[ERROR] Failed to import "client-4" (Media)
+[ERROR] Failed to import "client-5-light" (Media)
+[ERROR] Failed to import "client-5" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "avatar-1" (Media)
+[ERROR] Failed to import "service-1" (Media)
+[ERROR] Failed to import "1" (Media)
+[ERROR] Failed to import "price-1" (Media)
+[ERROR] Failed to import "client-1-light" (Media)
+

@@ -1,0 +1,1 @@
+import{n as o}from"./vueComponentNormalizer.87056a83.js";var a=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",{staticClass:"aioseo-pro-badge"},[n._t("default",function(){return[n._v(" PRO ")]})],2)},s=[];const u={},r={};var _=o(u,a,s,!1,c,null,null,null);function c(n){for(let t in r)this[t]=r[t]}var i=function(){return _.exports}();export{i as C};

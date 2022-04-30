@@ -1,0 +1,126 @@
+/*=================================================================*/
+/*                      DARK MODE                              
+/*=================================================================*/
+body.dark {
+    color: #FFF;
+    background: $colordark;
+    .desktop-header-3, header.desktop-header-1, header.mobile-header-1, header.desktop-header-2, header.mobile-header-2 {
+        background: $colordark;
+    }
+    .nav-menu li .nav-link {
+        color: #FFF;
+    }
+    .section-title {
+        color: #FFF;
+        &:before {
+            background: url('../images/dots-bg-light.svg');
+        }
+    }
+    .archive-header:before {
+        background: url('../images/dots-bg-light.svg');
+    }
+    .bg-dark,
+    .blog-single {
+        background: #302f4e !important;
+    }
+    .bg-white {
+        background-color: #302f4e !important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #FFF;
+    }
+    .triangle-top:before {
+        border-bottom-color: #302f4e;
+    }
+    .timeline.exp .timeline-container::after, .timeline.edu .timeline-container::after {
+        background: #302f4e;
+    }
+    .timeline i {
+        background: #302f4e;
+    }
+    .portfolio-filter li {
+        color: #FFF;
+    }
+    a:hover {
+        color: #FFF;
+    }
+    .portfolio-filter li.current {
+        color: $colorpink;
+    }
+    .blog-item .details h4.title a {
+        color: #FFF;
+        &:hover {
+            color: $colorpink;
+        }
+    }
+    .contact-info {
+        background-image: url('../images/map-light.png');
+    }
+    .white-popup {
+        background: #302f4e;
+    }
+    footer.footer {
+        border-top: solid 1px rgba(255, 255, 255, 0.1);
+    }
+    .comments,
+    .comment-respond {
+        border-top-color: rgba(255, 255, 255, 0.1);
+    }
+    .blog-standard .meta li a,
+    .blog-standard .title a,
+    .comment-author .fn {
+        color: #FFF;
+    }
+    .comment-metadata {
+        color: #bbbbbb;
+    }
+    strong, th {
+        color: #FFF;
+    }
+    table, th, td {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    &.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+        color: $colordark;
+    }
+    &.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+        color: $colorpink !important;
+    }
+    .woocommerce-error, .woocommerce-info, .woocommerce-message {
+        background-color: rgba(247, 246, 247, 0.05);
+    }
+    .woocommerce table.shop_table {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    &.woocommerce table.shop_attributes {
+        border-top-color: rgba(255, 255, 255, 0.1);
+    }
+    &.woocommerce table.shop_attributes td {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    &.woocommerce table.shop_attributes th {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    #add_payment_method .cart-collaterals .cart_totals tr td, #add_payment_method .cart-collaterals .cart_totals tr th, &.woocommerce-cart .cart-collaterals .cart_totals tr td, &.woocommerce-cart .cart-collaterals .cart_totals tr th, &.woocommerce-checkout .cart-collaterals .cart_totals tr td, &.woocommerce-checkout .cart-collaterals .cart_totals tr th {
+        border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #add_payment_method #payment, &.woocommerce-cart #payment, &.woocommerce-checkout #payment {
+        background: rgba(247, 246, 247, 0.05);
+    }
+    .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+        color: $colordark;
+    }
+    &.woocommerce form.checkout_coupon, &.woocommerce form.login, &.woocommerce form.register {
+        border-color: rgba(211, 206, 210, 0.1);
+    }
+    #add_payment_method #payment div.payment_box, &.woocommerce-cart #payment div.payment_box, &.woocommerce-checkout #payment div.payment_box {
+        background-color: rgba(223, 220, 222, 0.1);
+    }
+    #add_payment_method #payment div.payment_box::before, &.woocommerce-cart #payment div.payment_box::before, &.woocommerce-checkout #payment div.payment_box::before {
+        display: none;
+    }
+    .woocommerce .woocommerce-customer-details address {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+}

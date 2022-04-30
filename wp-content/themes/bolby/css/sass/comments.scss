@@ -1,0 +1,469 @@
+/* -------------------------------------------------------------------------- */
+/*	Comments
+/* -------------------------------------------------------------------------- */
+.comments {
+    margin-top: 2rem;
+    border-top: solid 1px #EEE;
+}
+
+
+/* Comment Headers ----------------------------- */
+
+.comments-wrapper {
+	margin-top: 5rem;
+}
+
+.comment-reply-title {
+    margin: 2rem 0;
+}
+
+
+
+/* Comment Item ----------------------------- */
+
+/* COMMENT HEADER */
+
+.comments .comment,
+.comments .pingback,
+.comments .trackback,
+.comments .review {
+	padding-top: 2.5rem;
+}
+
+.comments .comments-header + div {
+	margin-top: -2.5rem;
+	padding-top: 0;
+}
+
+.comment-body {
+	position: relative;
+}
+
+.comment .comment {
+	padding-left: 5%;
+}
+
+.comment-meta {
+	line-height: 1.1;
+	margin-bottom: 1.3rem;
+	padding-left: 70px;
+	position: relative;
+}
+
+.hide-avatars .comment-meta {
+	min-height: 0;
+	padding-left: 0;
+}
+
+.comment-meta a {
+	color: inherit;
+}
+
+.comment-author {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.comment-author .fn {
+    color: $colordark;
+    text-decoration: none;
+    &:hover {
+        color: $colorpink;
+    }
+}
+
+.comment-author a {
+	
+}
+
+.comment-author a:hover,
+.comment-author a:focus {
+	text-decoration: none;
+}
+
+.comment-meta .avatar {
+    border-radius: 50%;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3rem;
+}
+
+.comment-author .url {
+	
+}
+
+.comment-metadata {
+	color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.6rem;
+}
+
+.comment-metadata a {
+	text-decoration: none;
+}
+
+.comment-metadata a:focus,
+.comment-metadata a:hover {
+	text-decoration: underline;
+}
+
+
+/* COMMENT CONTENT */
+
+.comment-content.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	width: 100%;
+}
+
+.comment-content.entry-content .alignleft {
+
+	/*rtl:ignore*/
+	margin-left: 0;
+}
+
+.comment-content.entry-content .alignright {
+
+	/*rtl:ignore*/
+	margin-right: 0;
+}
+
+.comment-content {
+    padding-left: 70px;
+}
+
+/* COMMENT FOOTER */
+
+.comment-footer-meta {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	font-weight: 400;
+	justify-content: flex-start;
+	letter-spacing: 0.030833333em;
+	line-height: 1;
+	margin: 0.5rem 0 0 70px;
+}
+
+.comment-footer-meta > * {
+	margin: 0;
+}
+
+.comment-reply-link {
+	background-color: $colorpink;
+	color: #fff;
+	display: block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 25px;
+    &:hover {
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+
+.bypostauthor .comment-footer-meta .by-post-author {
+	display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 13px;
+    color: $colorpink;
+}
+
+.comment-footer-meta a {
+	text-decoration: none;
+}
+
+.comment-footer-meta a:focus,
+.comment-footer-meta a:hover {
+	text-decoration: underline;
+}
+
+
+/* Pingbacks & Trackbacks ------------------------- */
+
+.pingback .comment-meta,
+.trackback .comment-meta {
+	padding-left: 0;
+}
+
+.comments .pingback, 
+.comments .trackback {
+    .comment-content {
+        padding-left: 0;
+    }
+}
+
+
+/* Comments Pagination ---------------------------- */
+
+.comments-pagination {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 2.3rem;
+	text-align: center;
+}
+
+.comments-pagination.only-next {
+	justify-content: flex-end;
+}
+
+.comments-pagination .page-numbers {
+	display: none;
+	text-decoration: none;
+}
+
+.comments-pagination .prev,
+.comments-pagination .next {
+	display: block;
+}
+
+.comments-pagination .prev {
+	left: 0;
+}
+
+.comments-pagination .next {
+	right: 0;
+	text-align: right;
+}
+
+
+/* Comment Respond ---------------------------- */
+
+.comment-respond::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.comment-respond .comments-closed {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.comment-respond {
+    margin-top: 2.5rem;
+    border-top: solid 1px #EEE;
+    clear: both;
+}
+
+.comment-respond .comment-notes,
+.comment-respond .logged-in-as {
+    font-style: italic;
+}
+
+.comment-respond .comment-notes a,
+.comment-respond .logged-in-as a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.comment-respond .comment-notes a:focus,
+.comment-respond .comment-notes a:hover,
+.comment-respond .logged-in-as a:focus,
+.comment-respond .logged-in-as a:hover {
+	color: $colorpink;
+}
+
+.comment-respond p {
+
+}
+
+.comment-respond p:not(.comment-notes) {
+
+}
+
+.comment-form-cookies-consent {
+	align-items: baseline;
+	display: flex;
+}
+
+.comment-respond > p:last-of-type {
+	margin-bottom: 0;
+}
+
+.comment-respond label {
+	display: block;
+}
+
+.comment-respond input[type="checkbox"] + label {
+	font-size: 14px;
+    margin-left: 10px;
+}
+
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond textarea {
+	margin-bottom: 0;
+}
+
+.comment-respond textarea {
+	height: 10rem;
+}
+
+.comment-respond #submit {
+	display: block;
+}
+
+.comment-respond .comments-closed {
+	text-align: center;
+}
+
+.comment-respond {
+    textarea, input[type=text],input[type=email],input[type=url] {
+        border-radius: 30px;
+        border: 0;
+        background: #f3f3f3;
+        padding: 6px 20px;
+        outline: 0;
+        max-width: 100%;
+    }
+    input[type=submit] {
+        border: 0;
+        @extend .btn;
+        @extend .btn-default;
+    }
+}
+
+
+/* Reply Respond ---------------------------- */
+
+.comments .comment-respond {
+	
+}
+
+.comments .comment-respond .comment-reply-title,
+.comments .comment-respond .comment-notes,
+.comments .comment-respond .logged-in-as {
+	text-align: left;
+}
+
+.comment-reply-title small {
+	display: block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0.5rem 0 0 0;
+    white-space: nowrap;
+}
+
+.comment-reply-title small a {
+	text-decoration: none;
+}
+
+.comment-reply-title small a:focus,
+.comment-reply-title small a:hover {
+	text-decoration: underline;
+}
+
+.comment-awaiting-moderation {
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*	17. Media Queries
+/* -------------------------------------------------------------------------- */
+
+@media ( min-width: 700px ) {
+
+	/* Comments ------------------------------ */
+
+	.comments-wrapper {
+		margin-top: 8rem;
+	}
+
+	.comment-meta .avatar {
+        display: block;
+		height: 3rem;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 3rem;
+	}
+
+	.comment-author {
+		font-size: 20px;
+	}
+
+	.comment-metadata {
+		font-size: 14px;
+        font-weight: 400;
+		margin-top: 0.8rem;
+	}
+
+	/* PINGBACKS & TRACKBACKS */
+
+	.pingback .comment-body {
+		padding: 0;
+	}
+
+	/* COMMENT RESPOND */
+
+	.comment-respond p {
+		
+	}
+
+	.comment-form p.logged-in-as {
+		margin: -2.5rem 0 4.4rem 0;
+	}
+
+	.comment-respond .comment-form-author,
+	.comment-respond .comment-form-email {
+
+	}
+
+	.comment-respond .comment-form-email {
+
+	}
+
+	.comments .comment-respond {
+		
+	}
+
+	.comment-reply-title small {
+
+	}
+
+}
+
+@media ( min-width: 1000px ) {
+
+	/* Comments ------------------------------ */
+
+	.comment-meta {
+		padding-left: 70px;
+	}
+
+	.comment-meta .avatar {
+		left: 0;
+	}
+}
+
+
+@media ( min-width: 1220px ) {
+
+	/* Comments ------------------------------ */
+
+	.comments .comment-respond .comment-reply-title {
+		
+	}
+
+	.comments .comment-respond p.comment-notes,
+	.comments .comment-respond p.logged-in-as {
+		
+	}
+
+}
+
+@media ( max-width: 575px ) {
+    .comment-content {
+        padding-left: 0;
+    }
+    .comment-footer-meta {
+        margin: 0.5rem 0 0 0;
+    }
+}

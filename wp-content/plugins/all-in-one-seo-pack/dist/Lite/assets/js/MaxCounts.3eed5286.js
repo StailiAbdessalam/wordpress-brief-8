@@ -1,0 +1,1 @@
+const r={methods:{maxRecommendedCount(n,t){const o=n>t?' class="error"':"";return this.$t.sprintf("%1$s out of %2$s max recommended characters.",`<strong${o}>${n}</strong>`,`<strong>${t}</strong>`)},updateCount(n,t){this[t]=n.length}}};export{r as M};

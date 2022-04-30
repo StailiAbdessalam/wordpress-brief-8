@@ -1,0 +1,8 @@
+.customizer-section-title {
+    padding: 8px 10px;
+    background-color: #dcdcdc;
+    color: #000000;
+    cursor: default;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
